@@ -1,4 +1,3 @@
-//程序开始
 //引入库文件
 #include <iostream>
 
