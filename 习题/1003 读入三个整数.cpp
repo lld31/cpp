@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//主入口
 int main()
 {
 	int a, b, c;
