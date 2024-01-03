@@ -1,4 +1,4 @@
-CSP信息学奥赛题 C++版
+CSP信息学奥赛题 C++版（优先使用C）
 github地址：https://github.com/lld31/cpp
 www:www.3jc.com
 
