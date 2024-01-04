@@ -7,23 +7,23 @@ int main() {
 	int n;
 	printf("请输入A国参与决赛项目的天数: ");
 	scanf("%d", &n);
-	
-	
-	int sum_g=0,sum_s=0,sum_c=0;
-	
+
+
+	int sum_g = 0, sum_s = 0, sum_c = 0;
+
 	for (int i = 0; i < n; i++) {
-		int g,s,c;
-		
-		printf("请输入第 %d 天金银铜牌数量用空格分开：", i+1);
+		int g, s, c;
+
+		printf("请输入第 %d 天金银铜牌数量用空格分开：", i + 1);
 		scanf("%d %d %d", &g, &s, &c);
-		
-		sum_g+=g;
-		sum_s+=s;
-		sum_c+=c;
-		
+
+		sum_g += g;
+		sum_s += s;
+		sum_c += c;
+
 	}
-	
-	printf("A国所获得的金牌 %d 个、银牌 %d 个、铜牌 %d 个，总奖牌数 %d 个\n", sum_g,sum_s,sum_c,sum_g+sum_c+sum_s);
-	
+
+	printf("A国所获得的金牌 %d 个、银牌 %d 个、铜牌 %d 个，总奖牌数 %d 个\n", sum_g, sum_s, sum_c, sum_g + sum_c + sum_s);
+
 	return 0;
 }

@@ -5,24 +5,24 @@
 //输出为N个数中与m相同的数的个数。
 
 int main() {
-	int N,m;
-	
+	int N, m;
+
 	printf("你要输入的整数序列的长度N(<=100)和要输出的数字m(空格分开):");
-	scanf("%d %d", &N,m);
-	
+	scanf("%d %d", &N, m);
+
 	int count = 0;  // 计数器，用于统计与指定数字相同的数的个数
-	
+
 	for (int i = 0; i < N; i++) {
 		int num;
-		
-		printf("请输入整数序列中的第 %d 个数字：", i+1);
+
+		printf("请输入整数序列中的第 %d 个数字：", i + 1);
 		scanf("%d", &num);// 输入整数序列中的每个数字
-		
+
 		if (num == m) {
 			count++;  // 如果当前数字与指定数字相同，计数器加一
 		}
 	}
-	
-	printf("与 %d 相同的数的个数 %d\n", m,count);// 输出与指定数字相同的数的个数
+
+	printf("与 %d 相同的数的个数 %d\n", m, count); // 输出与指定数字相同的数的个数
 	return 0;
 }
