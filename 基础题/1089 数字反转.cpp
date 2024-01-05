@@ -19,7 +19,7 @@ int main() {
 	// 只计算正数
 	n = fu * n;//也可以使用fabs
 
-	// 计算求出这个整数的位数  由于个位数的10为0
+	// 计算求出这个整数的位数
 	int digits = (int)log10(n);
 
 	while (n > 0) {
