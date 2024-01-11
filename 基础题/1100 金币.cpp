@@ -13,6 +13,7 @@
 【输出样例】14
 */
 int main() {
+	
 	int day;
 	printf("请输入一个整数 天数（范围1到10000）：");
 	scanf("%d", &day);
@@ -29,5 +30,6 @@ int main() {
 	}
 	
 	printf("%d",sum);
+	
 	return 0;
 }
